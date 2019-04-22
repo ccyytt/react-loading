@@ -13,11 +13,11 @@
 
 ```js
 import Eloading from 'react-loading-dev'
-<Eloading bgColor={string} name={string} preview={string}/>
+<Eloading name={string} bgColor={string} preview={string}/>
 ```
 
 ## 参数
-### bgColor  
+### name  
 | 参数名称 | Type | 可选 | Default |
 |- | :-: | :-:| :- |
 |bounce | string | rgba,十六进制 |  bgColor: '#1f4954',preview: 'rgba(0, 0, 0, .3)'|
