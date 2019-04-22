@@ -1,22 +1,22 @@
-#基于react的全屏loading插件  
+# 基于react的全屏loading插件  
 
-##React-loader-dev  
+## React-loader-dev  
 动画库样式基于spinkit
 
-##安装  
+## 安装  
 
 ```shell
 npm i -S react-loading-dev
-```  
+``` 
 
-##使用  
+## 使用  
 
 ```js
 import Eloading from 'react-loading-dev'
 <Eloading bgColor={string} name={string} preview={string}/>
 ```
 
-##参数
+## 参数
 ### bgColor  
 | 参数名称 | Type | 可选 | Default |
 |- | :-: | :-:|  -: |
@@ -33,4 +33,4 @@ import Eloading from 'react-loading-dev'
 |folding | string | rgba,十六进制 | bgColor: '#1abc9c',preview: '#fff' |
 
 
-###preview string 仅部分动画支持: 'bounce', 'spinner', 'rect', 'cube', scaleout', 'dot', 'skGrid', 
+### preview string 仅部分动画支持: 'bounce', 'spinner', 'rect', 'cube', scaleout', 'dot', 'skGrid', 
