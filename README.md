@@ -19,7 +19,7 @@ import Eloading from 'react-loading-dev'
 ## 参数
 ### bgColor  
 | 参数名称 | Type | 可选 | Default |
-|- | :-: | :-:|  -: |
+|- | :-: | :-:| :- |
 |bounce | string | rgba,十六进制 |  bgColor: '#1f4954',preview: 'rgba(0, 0, 0, .3)'|
 |spinner | string | rgba,十六进制 | bgColor: '#d35400',preview:'#fff'|
 |rect | string | rgba,十六进制 | bgColor: '#1abc9c',preview: '#fff' |
