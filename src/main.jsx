@@ -7,7 +7,7 @@ class Eloading extends Component {
         const {bgColor, preview, name} = this.props
         const dom = animation[name] || animation['spinner'];
         return <div className={'react-sk'} style={{backgroundColor: bgColor || dom.bgColor}}>
-           <dom.kids preview={dom.preview}></dom.kids>
+           <dom.kids preview={preview || dom.preview}></dom.kids>
         </div>
     }
 }
