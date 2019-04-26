@@ -34,3 +34,5 @@ import Eloading from 'react-loading-dev'
 
 
 ### preview string 仅部分动画支持: 'bounce', 'spinner', 'rect', 'cube', scaleout', 'dot', 'skGrid', 
+
+### 必须依赖项 classnames react  react-dom 请自行安装

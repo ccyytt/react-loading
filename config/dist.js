@@ -12,6 +12,11 @@ const lib = {
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
+    externals: {
+        react: 'react',
+        'react-dom': 'react-dom',
+        classnames: 'classnames'
+    },
     plugins: [
         new CleanWebpackPlugin(),
     ]
